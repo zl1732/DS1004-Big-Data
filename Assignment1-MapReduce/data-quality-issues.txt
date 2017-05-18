@@ -1,0 +1,5 @@
+1, There's some sepcial cases in the two csv files, which makes the line will not be splited correctly with comma delimeter,
+this is because there's extra commas in the value of a cell in that line. In this case, I used a package from csv to avoid this problem.
+
+2, In the "registration state" column, there's many 99, possibly represent NA, I think use NA is better, since it won't take the risk that 
+we input 99 as a integer and cause type conflict.  
